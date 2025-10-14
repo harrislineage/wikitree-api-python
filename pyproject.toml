@@ -4,7 +4,8 @@ version = "0.1.0"
 description = "Python client for the WikiTree API"
 readme = "README.md"
 requires-python = ">=3.8"
-license = { text = "GPL-3.0-only" }
+license = "GPL-3.0-only"
+license-files = []
 authors = [{ name = "Steven Harris", email = "steven@harrislineage.com" }]
 keywords = ["wikitree", "api", "client", "genealogy"]
 dependencies = ["requests>=2.28"]
