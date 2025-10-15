@@ -1,5 +1,10 @@
 # WikiTree API Python Client
 
+[![PyPI](https://img.shields.io/pypi/v/wikitree-api.svg)](https://pypi.org/project/wikitree-api/)
+[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
+[![GitHub Repo](https://img.shields.io/badge/source-GitHub-black?logo=github)](https://github.com/harrislineage/wikitree-api-python)
+[![Status](https://img.shields.io/badge/status-beta-orange.svg)](https://pypi.org/project/wikitree-api/)
+
 A modern Python wrapper for the [WikiTree API](https://api.wikitree.com/).
 
 This library provides authenticated and public access to WikiTree data, with clean method wrappers and consistent JSON responses.
@@ -64,4 +69,10 @@ print(data)
 git clone https://github.com/harrislineage/wikitree-api-python.git
 cd wikitree-api-python
 pip install -e .
+```
+
+## Installation with PyPI
+
+```
+pip install --pre wikitree-api
 ```
