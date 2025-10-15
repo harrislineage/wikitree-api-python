@@ -23,6 +23,11 @@ From GitHub (latest version):
 pip install git+https://github.com/harrislineage/wikitree-api-python.git
 ```
 
+From PyPi (pre-release):
+```
+pip install --pre wikitree-api
+```
+
 ## Quick Start
 
 ```
@@ -69,10 +74,4 @@ print(data)
 git clone https://github.com/harrislineage/wikitree-api-python.git
 cd wikitree-api-python
 pip install -e .
-```
-
-## Installation with PyPI
-
-```
-pip install --pre wikitree-api
 ```
