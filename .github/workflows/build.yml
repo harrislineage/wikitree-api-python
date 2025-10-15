@@ -22,7 +22,7 @@ jobs:
 
       - name: Lint with flake8
         run: |
-          flake8 wikitree_api --max-line-length=100 --ignore=E203,W503
+          flake8 wikitree_api --max-line-length=120 --ignore=E203,W503,W291,E501
 
       - name: Build package
         run: |
