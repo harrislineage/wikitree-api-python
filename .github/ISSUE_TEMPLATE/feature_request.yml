@@ -1,0 +1,47 @@
+name: 💡 Feature request
+description: Suggest a new idea or improvement for the WikiTree API client
+title: "[FEATURE]: "
+labels: [enhancement]
+assignees: []
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for helping improve the project!  
+        Use this form to suggest a feature, enhancement, or API improvement.
+
+  - type: input
+    id: summary
+    attributes:
+      label: Short summary
+      description: What’s your feature about, in one sentence?
+      placeholder: "Add support for saving session tokens locally"
+
+  - type: textarea
+    id: motivation
+    attributes:
+      label: Why is this needed?
+      description: Explain the problem or gap your feature solves.
+      placeholder: "Currently, the client requires manual re-authentication each time..."
+    validations:
+      required: true
+
+  - type: textarea
+    id: solution
+    attributes:
+      label: Proposed solution
+      description: How would you like to see it implemented?
+      placeholder: "Add a `--save-session` flag to the CLI that writes tokens to ~/.wikitree/"
+
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives considered
+      description: Have you tried workarounds or other methods?
+      placeholder: "I tried manually saving cookies, but the session expires after restart."
+
+  - type: textarea
+    id: additional
+    attributes:
+      label: Additional context
+      description: Any other details, mockups, or references?
